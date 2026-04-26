@@ -4,14 +4,11 @@ import { motion } from "framer-motion";
 import { pageVariants, sectionVariants } from "../../config/animations";
 
 function Projects() {
-  const githubUser = import.meta.env.VITE_GITHUB_USER;
-
   useSEO({
     title: "Projects",
-    description:
-      "Browse my GitHub projects and portfolio. Check out the applications I built using React, Node.js, and other technologies.",
+    description: "Browse my GitHub projects and portfolio. Check out the applications I built using React, Node.js, and other technologies.",
     keywords: "projects, github, portfolio, web development, react projects",
-    url: window.location.origin + "/projects"
+    url: "http://localhost:3000/projects"
   });
 
   return (
