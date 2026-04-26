@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Puppy-Z4nx - Personal Portfolio Website
 
 Welcome to **Puppy-Z4nx**, a modern, feature-rich, and interactive personal portfolio website built with ReactJS and TailwindCSS. It's designed to showcase your profile, skills, projects, and interests in a beautiful and responsive way.
@@ -178,3 +179,6 @@ Inspired by various creative portfolios in the dev community.
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+=======
+# ethpr
+>>>>>>> 4095165ffee0259bb89bded212105167b129aa73
