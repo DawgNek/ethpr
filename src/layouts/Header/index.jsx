@@ -7,45 +7,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
   faFacebook, 
   faGithub, 
-  faDiscord, 
-  faYoutube, 
+  faDiscord,  
   faInstagram, 
   faSpotify,
   faTiktok,
-  faLinkedin,
-  faTwitch,
   faSoundcloud,
   faZhihu,
   faGratipay
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
-// Component icon Locket tự tạo
-const LocketIcon = ({ className = "", size = 20, color = "currentColor" }) => {
-  return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-    >
-      {/* Khung trái tim bên ngoài */}
-      <path
-        d="M12 21.35L10.55 20.03C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5C22 12.27 18.6 15.36 13.45 20.03L12 21.35Z"
-        fill={color}
-        stroke="none"
-      />
-      {/* Ổ khóa hình tròn ở giữa */}
-      <circle cx="12" cy="10" r="2.5" fill="white" />
-      {/* Lỗ khóa */}
-      <rect x="11.2" y="10" width="1.6" height="3.5" fill={color} rx="0.8" />
-      {/* Đáy của ổ khóa */}
-      <rect x="10.5" y="12.5" width="3" height="1.2" fill={color} rx="0.6" />
-    </svg>
-  );
-};
 
 function Header() {
   const socialButtonStyle =
