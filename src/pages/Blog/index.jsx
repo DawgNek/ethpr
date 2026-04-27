@@ -12,7 +12,7 @@ function Blog() {
         title: "Blog",
         description: "Share my thoughts and coding journey.",
         keywords: "blog, devlog, coding, tutorial",
-        url: "https://puppyz4nx.is-a.dev/blog"
+        url: "http://localhost:3000/blog"
     });
 
     return (

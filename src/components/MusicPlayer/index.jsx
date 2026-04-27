@@ -27,12 +27,12 @@ const isSpotifySource = (src) => {
 };
 
 const musicTracks = [
-    { src: "/music/Attention.mp3", name: "Attention" },
-    { src: "/music/Tình Mình Lạ Kì.mp3", name: "Tình Mình Lạ Kì" },
-    { src: "/music/KHÔNG BUÔNG.mp3", name: "KHÔNG BUÔNG " },
-    { src: "/music/Where U At  (Demo).mp3", name: "Where U At  (Demo)" },
-    { src: "/music/lofi songs for slow days.mp3", name: "Lofi song" },
-    { src: "https://open.spotify.com/track/6GM4ZOBDcDroldUxI8GZ2B?si=b14b942b3a7945d5", name: "Ai Ngoài Anh" },
+    { src: "/music/Có Hẹn Với Thanh Xuân.mp3", name: "Có Hẹn Với Thanh Xuân" },
+    { src: "/music/KÉM DUYÊN (remix by Higo).mp3", name: "Kém Duyên (remix by Higo)" },
+    { src: "https://open.spotify.com/track/3Th9hnDljACufaL9H98vv9?si=3e98235fd15a4873", name: "TIME" },
+    { src: "https://open.spotify.com/track/1Z31qUIHV1JYh4Ez43hY3B?si=f3228d00ce7446db", name: "VERTIGO" },
+    { src: "https://open.spotify.com/track/0rVGTR8VktSqEKaNUs3jyl?si=9e37f2a44bf940f4", name: "Ôm Trọn Nỗi Nhớ" },
+    { src: "https://open.spotify.com/track/4MCP9l0QB9YN2LCkIy8mz4?si=2e60ace60d9c4472", name: "Dạo Này" },
 ];
 
 // --- Memoized Components to reduce re-renders ---

@@ -48,10 +48,10 @@ const GitHubProjects = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const userRepoRes = await fetch("https://api.github.com/repos/hoangk3/hoangk3");
+        const userRepoRes = await fetch("https://api.github.com/repos/DawgNek/DawgNek");
         const userRepo = await userRepoRes.json();
 
-        const reposRes = await fetch("https://api.github.com/users/hoangk3/repos?sort=updated&per_page=30");
+        const reposRes = await fetch("https://api.github.com/users/DawgNek/repos?sort=updated&per_page=30");
         const repos = await reposRes.json();
 
         const allRepos = [userRepo, ...repos].filter(

@@ -74,7 +74,7 @@ function PinterestPage() {
 
       <Heading name="Pinterest" emoji="🌟" sId="pinterest" />
       <p className="mt-1 text-neutral-500 text-sm mb-6">
-        Pinterest Image Preview · {pinterest.length} images
+        My Image Preview · {pinterest.length} images
       </p>
 
       {/* Grid Layout */}

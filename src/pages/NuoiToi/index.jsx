@@ -13,17 +13,17 @@ import useSEO from "../../hooks/useSEO";
 import { pageVariants, sectionVariants, itemVariants } from "../../config/animations";
 
 const BANK_CONFIG = {
-    bankId: "MB", // Ngân hàng MBBank
-    accountNo: "0387829519", // Thay bằng số tài khoản của bạn
-    accountName: "PHAN DUY HOANG", // Thay bằng tên của bạn
+    bankId: "MOMO",
+    accountNo: "0979617388", // Thay bằng số tài khoản của bạn
+    accountName: "Nguyễn Thị Hồng Chi", // Thay bằng tên của bạn
     template: "compact2" // compact, qr_only, compact2, vqr2
 };
 
 const SUPPLY_MENU = [
-    { label: "Mì tôm", amount: 15000, icon: "🍜" },
-    { label: "Cà phê", amount: 35000, icon: "☕" },
-    { label: "Cơm gà", amount: 65000, icon: "🍗" },
-    { label: "Lẩu mini", amount: 150000, icon: "🍲" }
+    { label: "Tranh leo bách hương", amount: 25000, icon: "🧋" },
+    { label: "Một cái bánh mì", amount: 20000, icon: "🥖" },
+    { label: "Một đĩa cơm tấm", amount: 50000, icon: "🍱" },
+    { label: "Combo jollibee", amount: 200000, icon: "🍖" }
 ];
 
 const MEME_MESSAGES = [
@@ -35,14 +35,14 @@ const MEME_MESSAGES = [
     "Số tiền này để đổi lấy cái bụng no nê 🍖"
 ];
 
-const QUICK_AMOUNTS = [20000, 50000, 100000, 200000, 500000];
+const QUICK_AMOUNTS = [20000,36000, 50000, 100000, 200000, 500000];
 
 function Support() {
     useSEO({
         title: "Nuôi Tôi - Dự án Hành Trình Minh Bạch Của Sự Tin Tưởng",
         description: "Góp phần giúp Wang Yi có tiền mua nhiều mì cay ăn hơn.",
-        keywords: "support, donate, nuôi tôi, vietqr, puppy-z4nx, wangyi",
-        url: "puppyz4nx.is-a.dev/support"
+        keywords: "support, donate, nuôi tôi, vietqr, ethpr",
+        url: "http://localhost:3000/nuoitoi"
     });
 
     const [amount, setAmount] = useState("");
@@ -118,9 +118,11 @@ function Support() {
                                 Hành Trình Minh Bạch Của Sự Tin Tưởng
                             </h3>
                             <p className="text-slate-700 dark:text-slate-300 leading-relaxed text-sm mb-8">
-                                Chào bạn! Đây là "Dự án Nuôi Tôi". Mỗi sự đóng góp của bạn không chỉ là hỗ trợ tài chính,
-                                mà còn là những gói mì, ly cà phê giúp mình tiếp tục cống hiến cho ăn vặt của mình.
-                                Cảm ơn bạn đã đồng hành cùng chiếc bụng đói của mình! 🍜
+                                Chào bạn! Mình là ethpr. Đây là chiếc “quỹ nuôi chiếc bụng nhỏ” của mình.≽^•⩊•^≼
+                                Mỗi sự ủng hộ của bạn giống như một ly trà sữa hay một gói mì nóng hổi,
+                                giúp mình có thêm năng lượng để học tập,
+                                code và làm ra những thứ tốt hơn hơn mỗi ngày𖤝.
+                                Cảm ơn bạn đã ghé qua và dành chút yêu thương cho mình nhé!(˶˃ ᵕ ˂˶) .ᐟ.ᐟ🍜💖
                             </p>
 
                             <div className="space-y-4">

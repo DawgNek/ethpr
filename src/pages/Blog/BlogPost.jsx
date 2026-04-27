@@ -36,7 +36,7 @@ function BlogPost() {
         title: post?.title,
         description: post?.description,
         keywords: post?.tags?.join(", "),
-        url: post ? `https://puppyz4nx/blog/${post.id}` : undefined
+        url: post ? `http://localhost:3000/blog/${post.id}` : undefined
     });
 
     if (!post) return <div className="p-10 text-center font-bold text-slate-600 dark:text-slate-400">Loading...</div>;

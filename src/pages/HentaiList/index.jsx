@@ -25,7 +25,7 @@ function HentaiListPage() {
         title: "<3",
         description: "con mèo bel",
         keywords: "collection, gallery, art, anime",
-        url: "https://puppyz4nx.is-a.dev/fav-hentai-list"
+        url: "http://localhost:3000/fav-hentai-list"
     });
 
     const [currentIndex, setCurrentIndex] = useState(null);

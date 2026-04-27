@@ -79,7 +79,7 @@ function Header() {
             target="_blank"
             rel="noopener noreferrer"
             className={socialButtonStyle}
-            href="https://www.instagram.com/ethprr/"
+            href="https://www.instagram.com/lil_ethpr/"
           >
             <FontAwesomeIcon icon={faInstagram} className="group-hover:text-[#E4405F] transition-colors" />
           </a>

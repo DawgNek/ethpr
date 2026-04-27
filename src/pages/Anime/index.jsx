@@ -11,7 +11,7 @@ function Anime() {
         title: "Anime List",
         description: "Check out my anime and manga list on AniList.",
         keywords: "anime, manga, anilist, list",
-        url: "https://puppyz4nx.is-a.dev/anime"
+        url: "http://localhost:3000/anime"
     });
 
     const [data, setData] = useState(null);
