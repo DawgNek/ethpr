@@ -1,17 +1,17 @@
 <<<<<<< HEAD
-# 🌐 Puppy-Z4nx - Personal Portfolio Website
+# 🌐 ethpr - Personal Portfolio Website
 
-Welcome to **Puppy-Z4nx**, a modern, feature-rich, and interactive personal portfolio website built with ReactJS and TailwindCSS. It's designed to showcase your profile, skills, projects, and interests in a beautiful and responsive way.
+Welcome to **ethpr**, a modern, feature-rich, and interactive personal portfolio website built with ReactJS and TailwindCSS. It's designed to showcase your profile, skills, projects, and interests in a beautiful and responsive way.
 
 ## 💢 Project Status
 - 🔥 **Status:** Active Development & Maintenance.
-- 💻 **Live Demo:** [wangyi.is-a.dev](https://wangyi.is-a.dev/)
+- 💻 **Live Demo:** https://ethprinfo.vercel.app/
 
 ---
 
 ## 🍃 Features
 
-Puppy-Z4nx is packed with cool features to make your portfolio stand out:
+ethpr is packed with cool features to make your portfolio stand out:
 
 ### 🎨 UI/UX Design
 - **Modern Aesthetic:** Clean, minimalist design with a touch of "glassmorphism" and vibrant colors.
@@ -82,8 +82,8 @@ Follow these steps to get the project running on your local machine.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/wangyi68/Puppy-Z4nx.git
-    cd Puppy-Z4nx
+    git clone 
+    cd ethprbio
     ```
 
 2.  **Install Dependencies:**
@@ -110,7 +110,7 @@ Follow these steps to get the project running on your local machine.
 ## 📁 Project Structure
 
 ```
-Puppy-Z4nx/
+ethpr/
 ├── public/                  # Static assets (favicons, manifest, robots.txt)
 │   └── content/blog/        # Markdown files for Blog posts
 ├── src/
@@ -171,8 +171,7 @@ Contributions are welcome! If you have suggestions or want to improve the code:
 ## ✨ Credits
 
 Inspired by various creative portfolios in the dev community.
-- Original design concepts by **Kitomc** and **Omar Abdulaziz**.
-- Developed & maintained by **WangYi**.
+- Developed & maintained by **hai dang**.
 
 ---
 
